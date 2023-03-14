@@ -126,7 +126,9 @@ button:hover {
 #footer {
     background-color: rgb(31, 31, 31);
     color: white;
-
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     padding: 2rem;
     text-align: center;
 }
